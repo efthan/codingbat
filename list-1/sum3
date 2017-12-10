@@ -1,0 +1,21 @@
+# Given an array of ints length 3, return the sum of all the elements.
+
+def sum3(nums):
+# One way
+#    return nums[0] + nums[1] + nums[2]
+
+"""
+# Another way
+    sum  = 0
+    for num in nums:
+         sum = sum + num
+    return sum
+"""
+"""
+# Yet another way
+    sum  = 0
+    for i in range(len(nums)):
+        sum = sum + nums[i]
+    return sum
+
+"""
