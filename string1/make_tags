@@ -1,0 +1,5 @@
+# Given tag and word strings, 
+# create the HTML string with tags around the word, e.g. "<i>Yay</i>".
+
+def make_tags(tag, word):
+    return "<" + tag + ">" + word + "</" + tag + ">" 
